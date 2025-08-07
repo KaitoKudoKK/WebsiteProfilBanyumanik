@@ -1,8 +1,9 @@
 [build]
-  publish = "out"
-  command = "npm run build"
+  base = "fe"
+  publish = "fe/out"
+  command = "npm run build && npm run export"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/admin/*"
+  to = "/admin/index.html"
   status = 200

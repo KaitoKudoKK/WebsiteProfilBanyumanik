@@ -2,14 +2,14 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "public/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "public/images"
+public_folder: "/images"
 
 collections:
   - name: "beranda"
-    label: "Halaman Beranda"
+    label: "Beranda"
     files:
-      - file: "content/index.md"
+      - file: "src/content/index.md"
         label: "Bahasa Indonesia"
         name: "index_id"
         fields:
@@ -49,7 +49,7 @@ collections:
               - { label: "Judul", name: "judul", widget: "string" }
               - { label: "Isi", name: "isi", widget: "text" }
 
-      - file: "content/jv.md"
+      - file: "src/content/jv.md"
         label: "Bahasa Jawa"
         name: "index_jv"
         fields:
@@ -89,7 +89,7 @@ collections:
               - { label: "Judul", name: "judul", widget: "string" }
               - { label: "Isi", name: "isi", widget: "text" }
 
-      - file: "content/en.md"
+      - file: "src/content/en.md"
         label: "English"
         name: "index_en"
         fields:
