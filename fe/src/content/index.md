@@ -13,7 +13,7 @@ video:
   youtubeUrl: "https://www.youtube.com/embed/l0ALn8roX3M"
 map:
   heading: "Peta Padukuhan Banyumanik"
-  embedUrl: "https://www.google.com/maps/d/embed?mid=xxx"
+  embedUrl: "https://www.google.com/maps/d/embed?mid=1HVOjYDMP5mrKeIOnlwuWGV-pMUPneYI&ehbc=2E312F"
 berita:
   - id: 1
     img: "/images/berita-1.jpg"

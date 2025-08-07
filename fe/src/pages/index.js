@@ -136,7 +136,7 @@ export default function Home({ content }) {
 
 // Static Props
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), "content", "index.md");
+    const filePath = path.join(process.cwd(), "src\\content", "index.md");
     const fileContent = fs.readFileSync(filePath, "utf8");
     const { data } = matter(fileContent);
 

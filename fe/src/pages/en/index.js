@@ -42,8 +42,8 @@ export default function Home({ content }) {
                 <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
                     <div className="flex gap-4 text-sm text-white font-semibold">
                         <a href="/" className="hover:underline">Indonesia</a>
-                        <a href="/jv" className="underline text-yellow-400">Jawa</a>
-                        <a href="/en" className="hover:underline">English</a>
+                        <a href="/jv" className="hover:underline">Jawa</a>
+                        <a href="/en" className="underline text-yellow-400">English</a>
                     </div>
                 </div>
                 <div className="ml-8 md:ml-16 p-6 rounded text-left">
@@ -128,7 +128,7 @@ export default function Home({ content }) {
 }
 
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), "content", "en.md");
+    const filePath = path.join(process.cwd(), "src\\content", "en.md");
     const fileContent = fs.readFileSync(filePath, "utf8");
     const { data } = matter(fileContent);
 
