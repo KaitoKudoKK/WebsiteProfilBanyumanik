@@ -1,0 +1,130 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "beranda"
+    label: "Halaman Beranda"
+    files:
+      - file: "content/index.md"
+        label: "Bahasa Indonesia"
+        name: "index_id"
+        fields:
+          - { label: "Judul Website", name: "title", widget: "string" }
+          - { label: "Deskripsi", name: "description", widget: "text" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Gambar Latar", name: "background", widget: "image" }
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Subjudul", name: "subheading", widget: "string" }
+          - label: "Perkenalan"
+            name: "perkenalan"
+            widget: "object"
+            fields:
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Isi", name: "text", widget: "text" }
+          - label: "Video Profil"
+            name: "video"
+            widget: "object"
+            fields:
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Link YouTube", name: "youtubeUrl", widget: "string" }
+          - label: "Peta"
+            name: "map"
+            widget: "object"
+            fields:
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Link Embed Google Maps", name: "embedUrl", widget: "string" }
+          - label: "Berita"
+            name: "berita"
+            widget: "list"
+            fields:
+              - { label: "Gambar", name: "img", widget: "image" }
+              - { label: "Tanggal", name: "tanggal", widget: "string" }
+              - { label: "Judul", name: "judul", widget: "string" }
+              - { label: "Isi", name: "isi", widget: "text" }
+
+      - file: "content/jv.md"
+        label: "Bahasa Jawa"
+        name: "index_jv"
+        fields:
+          - { label: "Judul Website", name: "title", widget: "string" }
+          - { label: "Deskripsi", name: "description", widget: "text" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Gambar Latar", name: "background", widget: "image" }
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Subjudul", name: "subheading", widget: "string" }
+          - label: "Perkenalan"
+            name: "perkenalan"
+            widget: "object"
+            fields:
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Isi", name: "text", widget: "text" }
+          - label: "Video Profil"
+            name: "video"
+            widget: "object"
+            fields:
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Link YouTube", name: "youtubeUrl", widget: "string" }
+          - label: "Peta"
+            name: "map"
+            widget: "object"
+            fields:
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Link Embed Google Maps", name: "embedUrl", widget: "string" }
+          - label: "Berita"
+            name: "berita"
+            widget: "list"
+            fields:
+              - { label: "Gambar", name: "img", widget: "image" }
+              - { label: "Tanggal", name: "tanggal", widget: "string" }
+              - { label: "Judul", name: "judul", widget: "string" }
+              - { label: "Isi", name: "isi", widget: "text" }
+
+      - file: "content/en.md"
+        label: "English"
+        name: "index_en"
+        fields:
+          - { label: "Website Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Background Image", name: "background", widget: "image" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Subheading", name: "subheading", widget: "string" }
+          - label: "Introduction"
+            name: "perkenalan"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Content", name: "text", widget: "text" }
+          - label: "Profile Video"
+            name: "video"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "YouTube Link", name: "youtubeUrl", widget: "string" }
+          - label: "Map"
+            name: "map"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Embed URL", name: "embedUrl", widget: "string" }
+          - label: "News"
+            name: "berita"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "img", widget: "image" }
+              - { label: "Date", name: "tanggal", widget: "string" }
+              - { label: "Title", name: "judul", widget: "string" }
+              - { label: "Content", name: "isi", widget: "text" }
