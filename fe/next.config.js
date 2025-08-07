@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    images: {
-        unoptimized: true, // untuk Netlify tanpa Image Optimization
-    },
+    output: 'export', // wajib agar bisa di-export ke HTML static
 };
 
 export default nextConfig;
