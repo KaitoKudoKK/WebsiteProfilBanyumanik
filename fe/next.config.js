@@ -2,9 +2,12 @@
 const nextConfig = {
     reactStrictMode: true,
     eslint: {
-        ignoreDuringBuilds: true, // Ini solusinya
+        ignoreDuringBuilds: true,
     },
-    output: 'export', // kalau ingin pakai `next export`
+    images: {
+        unoptimized: true, //  Tambahkan ini
+    },
+    output: 'export', //  untuk mendukung `next export`
 };
 
 export default nextConfig;
