@@ -128,7 +128,7 @@ export default function Home({ content }) {
 }
 
 export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), "src\\content", "jv.md");
+    const filePath = path.join(process.cwd(), "src", "content", "jv.md");
     const fileContent = fs.readFileSync(filePath, "utf8");
     const { data } = matter(fileContent);
 
