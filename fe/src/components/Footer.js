@@ -30,7 +30,7 @@ export default function Footer() {
                 <div className="flex flex-col gap-1">
                     <h4 className="font-semibold text-base sm:text-lg mb-2">Hubungi Kami</h4>
                     <p className="flex items-center gap-2 text-xs sm:text-sm">
-                        <FaPhoneAlt className="text-white" /> +628123456789
+                        <FaPhoneAlt className="text-white" /> -
                     </p>
                     <p className="flex items-center gap-2 text-xs sm:text-sm">
                         <FaEnvelope className="text-white" /> banyumanikofficial@gmail.com
