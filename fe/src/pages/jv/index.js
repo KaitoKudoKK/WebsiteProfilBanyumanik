@@ -88,7 +88,7 @@ export default function Home({ content }) {
                     <div className="flex gap-2 text-xs md:text-sm font-medium">
                         <a href="/" className="px-3 py-1 rounded-full bg-[#D3E3D0] text-[#4B6153] hover:bg-[#bcd1ba]">Indonesia</a>
                         <a href="/jv" className="px-3 py-1 rounded-full bg-[#4B6153] text-white">Jawa</a>
-                        <a href="/en" className="">English</a>
+                        <a href="/en" className="px-3 py-1 rounded-full bg-[#D3E3D0] text-[#4B6153] hover:bg-[#bcd1ba]">English</a>
                     </div>
                 </div>
                 <div className="ml-4 md:ml-16 p-4 md:p-6 rounded text-left">
