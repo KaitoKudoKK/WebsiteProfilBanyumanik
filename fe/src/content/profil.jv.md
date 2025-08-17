@@ -18,10 +18,10 @@ batas_wilayah_paragraphs:
       Ler: Padhukuhan Serpeng Kidul, Kalurahan Pacarejo, Kapanewon Semanu
       Kidul: Padhukuhan Dayakan, Kalurahan Kemiri, Kapanewon Tanjungsari
   - heading: "Panggenan Sarta Kahanan Geografisipun"
-    text: "Padhukuhan Banyumanik dumunung kirang luwih 100 meter ing inggil permukaan segara. Miturut topografis, wilayah punika dumunung ing kawasan perbukitan karst ingkang khas ing Gunungkidul, saha kontur saperangan ageng lahan inggih punika siti garing, sela, saha perbukitan kapur ingkang dipun-ubengi wit jati. Awit kondisi geografis punika, sumber toya angel dipun-panggihaken ing Padhukuhan Banyumanik punika."
+    text: "Padhukuhan Banyumanik dumunung kirang langkung 100 meter ing inggil permukaan segara. Miturut topografis, wilayah punika dumunung ing kawasan perbukitan karst ingkang khas ing Gunungkidul, saha kontur saperangan ageng lahan inggih punika siti garing, sela, saha perbukitan kapur ingkang dipun-ubengi wit jati. Awit kondisi geografis punika, sumber toya angel dipun-panggihaken ing Padhukuhan Banyumanik punika."
 kependudukan:
   heading: "Kependudukan Padhukuhan Banyumanik"
   image: "/images/kependudukan.png"
-  caption: "Grafik Kependudukan Padhukuhan Banyumanik (Berdasarkan KK)"
+  caption: "Grafik Kependudukan Padhukuhan Banyumanik (Miturut KK)"
 ---
     
