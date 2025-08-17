@@ -128,3 +128,41 @@ collections:
               - { label: "Date", name: "tanggal", widget: "string" }
               - { label: "Title", name: "judul", widget: "string" }
               - { label: "Content", name: "isi", widget: "text" }
+  
+  - name: "profil"
+    label: "Profil Dusun"
+    files:
+      - file: "src/content/profil.md"
+        label: "Halaman Profil Padukuhan"
+        name: "profil_page"
+        fields:
+          - { label: "Judul Halaman", name: "title", widget: "string" }
+          - { label: "Visi", name: "visi", widget: "text" }
+          - { label: "Misi", name: "misi", widget: "text" }
+          - { label: "Sejarah Heading", name: "sejarah_heading", widget: "string" }
+          - label: "Sejarah Paragraphs"
+            name: "sejarah_paragraphs"
+            widget: "list"
+            fields:
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Isi", name: "text", widget: "text" }
+          - label: "Kelembagaan"
+            name: "kelembagaan"
+            widget: "object"
+            fields:
+              - { label: "Gambar Kelembagaan (media_folder)", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
+          - { label: "Batas Wilayah Heading", name: "batas_wilayah_heading", widget: "string" }
+          - label: "Batas Wilayah Paragraphs"
+            name: "batas_wilayah_paragraphs"
+            widget: "list"
+            fields:
+              - { label: "Judul", name: "heading", widget: "string" }
+              - { label: "Isi", name: "text", widget: "text" }
+          - label: "Kependudukan"
+            name: "kependudukan"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Gambar Kependudukan (media_folder)", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
