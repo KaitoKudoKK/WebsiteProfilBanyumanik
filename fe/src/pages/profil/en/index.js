@@ -99,8 +99,7 @@ export default function ProfilEn({ content }) {
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0F7050] mb-6">{sejarah_heading || "History & Origin"}</h2>
 
                     {sejarah_paragraphs.map((p, idx) => (
-                        <div key={idx} className="mb-6 py-6">
-                            <h4 className="text-[#1E1E1E] md:text-[21.3pt] px-4 md:px-10 text-xl font-bold mb-4 text-center">{p.heading}</h4>
+                        <div key={idx} className="mb-6">
                             <p className="text-[#1E1E1E] md:text-[17.3pt] px-4 md:px-10 leading-relaxed whitespace-pre-line text-center">{p.text}</p>
                         </div>
                     ))}

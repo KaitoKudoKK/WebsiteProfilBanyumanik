@@ -99,10 +99,7 @@ export default function ProfilJv({ content }) {
                     <h2 className="text-2xl md:text-3xl font-bold text-[#0F7050] mb-6">{sejarah_heading || "Sejarah lan Asal-Usul Padukuhan"}</h2>
 
                     {sejarah_paragraphs.map((p, idx) => (
-                        <div key={idx} className="mb-6 py-6">
-                            <h4 className="text-[#1E1E1E] md:text-[21.3pt] px-4 md:px-10 text-xl font-bold mb-4 text-center">
-                                {p.heading}
-                            </h4>
+                        <div key={idx} className="mb-6">
                             <p className="text-[#1E1E1E] md:text-[17.3pt] px-4 md:px-10 leading-relaxed whitespace-pre-line text-center">
                                 {p.text}
                             </p>
@@ -114,7 +111,7 @@ export default function ProfilJv({ content }) {
             {/* Kelembagaan */}
             <section className="bg-gray-100 py-12">
                 <div className="max-w-5xl mx-auto px-4">
-                    <h2 className="text-2xl md:text-3xl font-bold text-[#0F7050] text-center mb-6">Kelembagaan Padukuhan Banyumanik</h2>
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0F7050] text-center mb-6">Lembaga Ing Padhukuhan Banyumanik</h2>
 
                     {kelembagaan?.image ? (
                         <div className="rounded p-6 flex justify-center">
